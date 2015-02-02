@@ -1,0 +1,18 @@
+{
+  "name": "uselessapp",
+  "version": "0.0.0",
+  "authors": [
+    "Mobile Trio"
+  ],
+  "license": "none",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {},
+  "dependencies": {}
+}
