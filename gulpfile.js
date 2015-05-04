@@ -2,15 +2,30 @@
 'use strict';
 
 var gulp          = require('gulp'),
-    to5Browserify = require('6to5-browserify'),
     source        = require('vinyl-source-stream'),
-    browserify    = require('browserify');
+    browserify    = require('browserify'),
+    sourcemaps = require('gulp-sourcemaps'),
+    babelify = require('babelify');
 
-gulp.task("default", function () {
-  browserify({ debug: true })
-    .transform(to5Browserify)
-    .require('./app/js/test.jsx', { entry: true })
-    .bundle()
-    .pipe(source('all.js'))
-    .pipe(gulp.dest('./dist'));
-}); 
+gulp.task('build', function () {
+  browserify({
+    entries: './app/js/app.jsx',
+    extensions: ['.jsx'],
+    debug: true
+  })
+  .transform(babelify)
+  .bundle()
+  .pipe(source('all.js'))
+  .pipe(gulp.dest('dist'));
+});
+
+/*
+gulp.task('babel', function () {
+    return gulp.src('app/js/app.jsx')
+        .pipe(sourcemaps.init())
+        .pipe(babel())
+        .pipe(concat('all.js'))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('dist'));
+});
+*/

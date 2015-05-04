@@ -6,10 +6,15 @@
   "dependencies": {},
   "devDependencies": {
     "6to5-browserify": "^1.4.0",
+    "babelify": "^6.0.2",
     "browserify": "^8.1.1",
     "gulp": "^3.8.7",
+    "gulp-babel": "^5.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.5.2",
     "gulp-load-plugins": "^0.8.0",
-    "react": "^0.12.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "react": "^0.13.2",
     "vinyl-source-stream": "^1.0.0"
   },
   "scripts": {
