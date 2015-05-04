@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 # https://git-scm.com/docs/gitignore
 # https://help.github.com/articles/ignoring-files
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
+=======
+dist
+node_modules
+npm-debug.log
+>>>>>>> eb4be82a842e375f5f0dd3edbca5df4a4dee20a2

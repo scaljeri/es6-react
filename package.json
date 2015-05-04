@@ -1,0 +1,24 @@
+{
+  "name": "uselessapp",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "6to5-browserify": "^1.4.0",
+    "browserify": "^8.1.1",
+    "gulp": "^3.8.7",
+    "gulp-load-plugins": "^0.8.0",
+    "react": "^0.12.2",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://lcalje@bitbucket.org/mobiletrio/uselessapp.git"
+  },
+  "author": "",
+  "license": "none"
+}
