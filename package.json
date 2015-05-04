@@ -10,7 +10,6 @@
     "karma-phantomjs-launcher": "^0.1.4"
   },
   "devDependencies": {
-    "6to5-browserify": "^1.4.0",
     "babelify": "^6.0.2",
     "browserify": "^8.1.1",
     "gulp": "^3.8.7",
@@ -22,6 +21,8 @@
     "karma": "^0.12.31",
     "karma-browserify": "^4.1.2",
     "karma-chrome-launcher": "^0.1.8",
+    "karma-phantomjs2-launcher": "^0.1.6",
+    "phantomjs2": "^2.0.0",
     "react": "^0.13.2",
     "vinyl-source-stream": "^1.0.0"
   },
